@@ -24,6 +24,10 @@
             <e p="CarController.cs" t="Include" />
             <e p="CategoryController.cs" t="Include" />
             <e p="CityController.cs" t="Include" />
+            <e p="CommentController.cs" t="Include" />
+            <e p="CountryController.cs" t="Include" />
+            <e p="PrivodController.cs" t="Include" />
+            <e p="WheelController.cs" t="Include" />
           </e>
           <e p="HomeController.cs" t="Include" />
         </e>
@@ -36,6 +40,8 @@
             <e p="20201122184136_dsvfsgsdgs.Designer.cs" t="Include" />
             <e p="20201123092614_dsvfsgs.cs" t="Include" />
             <e p="20201123092614_dsvfsgs.Designer.cs" t="Include" />
+            <e p="20201123134334_last.cs" t="Include" />
+            <e p="20201123134334_last.Designer.cs" t="Include" />
             <e p="ApplicationDbContextModelSnapshot.cs" t="Include" />
           </e>
         </e>
@@ -48,7 +54,6 @@
           <e p="Country.cs" t="Include" />
           <e p="ErrorViewModel.cs" t="Include" />
           <e p="Privod.cs" t="Include" />
-          <e p="User.cs" t="Include" />
           <e p="Wheel.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
@@ -76,11 +81,9 @@
             <e p="CommentRepository.cs" t="Include" />
             <e p="CountryRepository.cs" t="Include" />
             <e p="PrivodRepository.cs" t="Include" />
-            <e p="UserRepository.cs" t="Include" />
             <e p="WheelRepository.cs" t="Include" />
           </e>
           <e p="IPrivodRepository.cs" t="Include" />
-          <e p="IUserRepository.cs" t="Include" />
           <e p="IWheelRepository.cs" t="Include" />
         </e>
         <e p="Startup.cs" t="Include" />

@@ -19,7 +19,6 @@ namespace KolesaEndTerm.Data
         public DbSet<Comment> Comments { get; set; }
         public DbSet<Country> Countries { get; set; }
         public DbSet<Privod> Privods { get; set; }
-        public DbSet<User> Users { get; set; }
         public DbSet<Wheel> Wheels { get; set; }
     }
 }

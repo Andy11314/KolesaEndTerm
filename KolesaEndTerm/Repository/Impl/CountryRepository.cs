@@ -4,7 +4,7 @@ using KolesaEndTerm.Models;
 
 namespace KolesaEndTerm.Repository.Impl
 {
-    public class CountryRepository
+    public class CountryRepository : ICountryRepository
     {
 
         private readonly ApplicationDbContext _context;

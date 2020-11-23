@@ -20,7 +20,6 @@ namespace KolesaEndTerm.Controllers.Api
         private readonly ICommentRepository _commentRepository;
         private readonly ICountryRepository _countryRepository;
         private readonly IPrivodRepository _privodRepository;
-        private readonly IUserRepository _userRepository;
         private readonly IWheelRepository _wheelRepository;
         private readonly UserManager<IdentityUser> _userManager;
 
@@ -32,8 +31,8 @@ namespace KolesaEndTerm.Controllers.Api
             _commentRepository = commentRepository;
             _countryRepository = countryRepository;
             _privodRepository = privodRepository;
+            _userManager = userManager;
             _wheelRepository = wheelRepository;
-            _userRepository = _userRepository;
         }
 
         
@@ -69,8 +68,6 @@ namespace KolesaEndTerm.Controllers.Api
             var raztamojen = request.GetProperty("raztamojen").GetBoolean();
             var categoryId = request.GetProperty("categoryId").GetInt32();
             var category = _categoryRepository.GetCategory(categoryId);
-            var userId = request.GetProperty("userId").GetInt32();
-            var user = _userRepository.GetUser(userId);
             var description = request.GetProperty("description").GetString();
             var year = request.GetProperty("year").GetInt32();
             var car = new Car()
@@ -90,8 +87,6 @@ namespace KolesaEndTerm.Controllers.Api
                 Raztamojen = raztamojen,
                 CategoryId = categoryId,
                 Category = category,
-                UserId = userId,
-                User = user,
                 Description = description,
                 Year = year
             };
