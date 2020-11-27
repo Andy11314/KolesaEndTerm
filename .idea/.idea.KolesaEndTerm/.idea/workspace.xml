@@ -10,6 +10,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/01C5D6F4-3BE9-4E51-B2FD-5DE7067828D8/19B/ModelSnapshot.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -17,7 +20,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/KolesaEndTerm/Models/Category.cs" />
-        <option value="$PROJECT_DIR$/KolesaEndTerm/Models/Comment.cs" />
         <option value="$PROJECT_DIR$/KolesaEndTerm/Models/Privod.cs" />
         <option value="$PROJECT_DIR$/KolesaEndTerm/Models/User.cs" />
         <option value="$PROJECT_DIR$/KolesaEndTerm/Models/Wheel.cs" />
@@ -45,14 +47,15 @@
         <option value="$PROJECT_DIR$/KolesaEndTerm/Models/Country.cs" />
         <option value="$PROJECT_DIR$/KolesaEndTerm/Models/City.cs" />
         <option value="$PROJECT_DIR$/KolesaEndTerm/Controllers/Api/AuthenticationController.cs" />
-        <option value="$PROJECT_DIR$/KolesaEndTerm/Controllers/Api/CommentController.cs" />
-        <option value="$PROJECT_DIR$/KolesaEndTerm/Controllers/Api/CountryController.cs" />
-        <option value="$PROJECT_DIR$/KolesaEndTerm/Controllers/Api/PrivodController.cs" />
-        <option value="$PROJECT_DIR$/KolesaEndTerm/Controllers/Api/WheelController.cs" />
         <option value="$PROJECT_DIR$/KolesaEndTerm/Data/ApplicationDbContext.cs" />
         <option value="$PROJECT_DIR$/KolesaEndTerm/Models/Car.cs" />
         <option value="$PROJECT_DIR$/KolesaEndTerm/Controllers/Api/CarController.cs" />
         <option value="$PROJECT_DIR$/KolesaEndTerm/Startup.cs" />
+        <option value="$PROJECT_DIR$/KolesaEndTerm/Models/Comment.cs" />
+        <option value="$PROJECT_DIR$/KolesaEndTerm/Controllers/Api/CommentController.cs" />
+        <option value="$PROJECT_DIR$/KolesaEndTerm/Controllers/Api/CountryController.cs" />
+        <option value="$PROJECT_DIR$/KolesaEndTerm/Controllers/Api/PrivodController.cs" />
+        <option value="$PROJECT_DIR$/KolesaEndTerm/Controllers/Api/WheelController.cs" />
       </list>
     </option>
   </component>
@@ -63,6 +66,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="sqlserver" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994584" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30010834" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -114,7 +119,8 @@
       <workItem from="1606068404067" duration="463000" />
       <workItem from="1606069200419" duration="1099000" />
       <workItem from="1606070328133" duration="840000" />
-      <workItem from="1606120720152" duration="10121000" />
+      <workItem from="1606120720152" duration="11159000" />
+      <workItem from="1606498695235" duration="3359000" />
     </task>
     <servers />
   </component>
@@ -131,22 +137,86 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606069507612" />
-    <state width="916" height="282" key="GridCell.Tab.0.bottom" timestamp="1606138943498">
+    <state width="1877" height="375" key="GridCell.Tab.0.bottom" timestamp="1606140696039">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606138943498" />
-    <state width="916" height="282" key="GridCell.Tab.0.center" timestamp="1606138943498">
+    <state width="1877" height="375" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606140696039" />
+    <state width="1877" height="375" key="GridCell.Tab.0.center" timestamp="1606140696039">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606138943498" />
-    <state width="916" height="282" key="GridCell.Tab.0.left" timestamp="1606138943498">
+    <state width="1877" height="375" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606140696039" />
+    <state width="1877" height="375" key="GridCell.Tab.0.left" timestamp="1606140696039">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606138943498" />
-    <state width="916" height="282" key="GridCell.Tab.0.right" timestamp="1606138943498">
+    <state width="1877" height="375" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606140696039" />
+    <state width="1877" height="375" key="GridCell.Tab.0.right" timestamp="1606140696039">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606138943498" />
+    <state width="1877" height="375" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606140696039" />
+    <state width="1877" height="375" key="GridCell.Tab.1.bottom" timestamp="1606140696039">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606140696039" />
+    <state width="1877" height="375" key="GridCell.Tab.1.center" timestamp="1606140696039">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606140696039" />
+    <state width="1877" height="375" key="GridCell.Tab.1.left" timestamp="1606140696039">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606140696039" />
+    <state width="1877" height="375" key="GridCell.Tab.1.right" timestamp="1606140696039">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606140696039" />
+    <state width="1877" height="375" key="GridCell.Tab.2.bottom" timestamp="1606140696039">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606140696039" />
+    <state width="1877" height="375" key="GridCell.Tab.2.center" timestamp="1606140696039">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606140696039" />
+    <state width="1877" height="375" key="GridCell.Tab.2.left" timestamp="1606140696039">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606140696039" />
+    <state width="1877" height="375" key="GridCell.Tab.2.right" timestamp="1606140696039">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606140696039" />
+    <state width="1877" height="375" key="GridCell.Tab.3.bottom" timestamp="1606140696039">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606140696039" />
+    <state width="1877" height="375" key="GridCell.Tab.3.center" timestamp="1606140696039">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606140696039" />
+    <state width="1877" height="375" key="GridCell.Tab.3.left" timestamp="1606140696039">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606140696039" />
+    <state width="1877" height="375" key="GridCell.Tab.3.right" timestamp="1606140696039">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606140696039" />
+    <state width="1877" height="375" key="GridCell.Tab.4.bottom" timestamp="1606140696040">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.4.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606140696040" />
+    <state width="1877" height="375" key="GridCell.Tab.4.center" timestamp="1606140696040">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.4.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606140696040" />
+    <state width="1877" height="375" key="GridCell.Tab.4.left" timestamp="1606140696040">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.4.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606140696040" />
+    <state width="1877" height="375" key="GridCell.Tab.4.right" timestamp="1606140696040">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.4.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606140696040" />
     <state width="196" height="455" key="HiddenNamespacesPopup" timestamp="1606069490342">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
